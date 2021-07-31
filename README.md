@@ -1,4 +1,4 @@
-# Discord Tools, Bots and Code
+## Discord Tools, Bots and Code
 ### All in easy-peasy python.
 No point hiding all of my code behind an encrypted wall, so here it is.
 Use it how you want to, even learn a couple things or two. I will go in detail (or sometimes briefly) about how the code works and functions. So if you're a coding nerd like me, you will probably enjoy this. :)
