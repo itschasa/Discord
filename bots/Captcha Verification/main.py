@@ -4,7 +4,7 @@
 length = 6
 
 # Bot Token
-TOKEN = "ODcwMzM4NzE4NTE3NTU5MzM4.YQLUGA.aHC1AwkT6DzTEWUUEWHNlBoF3Us"
+TOKEN = ""
 
 import discord
 from discord.ext import commands
