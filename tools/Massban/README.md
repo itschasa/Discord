@@ -1,0 +1,2 @@
+## Massban
+This is a tool which needs work on, it is highly likely to get your account/bot banned so be careful!
