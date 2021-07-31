@@ -13,7 +13,7 @@ Some of the things in this repo should only be used in an educational enviroment
   - Nukers, Sniffers, etc
 * **Discord Bots**
   - Captcha Verification, Generator Bot
-* **Discord Exploits**
+* **Discord Exploits (credit to [ecriminal](https://github.com/ecriminal/Discord-Exploit-Collection)**
   - Disable Email, Delete Webhook
 * **Advanced Grabbers/Malware**
   - Chrome Passwords, Webcam, Screenshot, Start on Startup
