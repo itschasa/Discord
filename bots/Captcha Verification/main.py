@@ -95,7 +95,7 @@ async def on_channel_create(channel):
     global verify_channel
     global verify_role
     global verify_guild
-    if channel.id == int(config["channel"]):
+    if channel.guild.id == int(config["guild"]):
         try:
             overwrites = {verify_role: discord.PermissionOverwrite(
                 read_messages=False,
