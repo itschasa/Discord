@@ -1,3 +1,5 @@
+# OUTDATED! VIEW PINNED REPOS ON MY PROFILE!
+
 # Discord Tools, Bots and Code
 ### All in easy-peasy python.
 No point hiding all of my code behind an encrypted wall, so here it is.
