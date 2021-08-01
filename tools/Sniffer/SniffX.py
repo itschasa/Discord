@@ -181,7 +181,7 @@ def sniff(tokens):
     global done
     for token in tokens:
         try:
-            subprocess.call(f'dont_rename.exe {token} "{folder}" N {threshold} ODDFOFXUpgf7yEntul5ockCA.OFk6Ph.lmsA54bT0Fux1IpsYvey5XuZk04MTdqrd0vGDV1dcF0QPjom6OB.NQxUhj.I4JjFHIympR3mVF3UiUbbD5VVbiNTzQvPcLBacBmgajXQc7QAaU.XCgboz.c4t51kFWSEmdmaPnKoyUuu8E78E', shell=True)
+            subprocess.call(f'dont_rename.exe {token} "{folder}" N {threshold}', shell=True)
         except:
             pass
         done += 1
