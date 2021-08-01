@@ -23,10 +23,7 @@ dms = None
 threshold = None
 def an(content):
     sys.stdout.write(f"{content}\r")
-def runToken(token2, folder2, dm2, threshold2, verification):
-    if verification != "ODDFOFXUpgf7yEntul5ockCA.OFk6Ph.lmsA54bT0Fux1IpsYvey5XuZk04MTdqrd0vGDV1dcF0QPjom6OB.NQxUhj.I4JjFHIympR3mVF3UiUbbD5VVbiNTzQvPcLBacBmgajXQc7QAaU.XCgboz.c4t51kFWSEmdmaPnKoyUuu8E78E":
-        print("Stop trying to get around the protection, its there for a reason.")
-        sys.exit()
+def runToken(token2, folder2, dm2, threshold2):
     global token
     global folder
     global dms
@@ -193,4 +190,4 @@ Billing Address:
     all_data2.close()
     all_data.close()
     sys.exit("Loading next token")
-runToken(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
+runToken(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
